@@ -10,9 +10,13 @@ html {
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
 }
 
-.pictures .image {
-    width: 400px;
-    height: auto;
+.text-center {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
