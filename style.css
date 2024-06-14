@@ -1,19 +1,24 @@
 html {
-    background-color: #e5e5f7;
+    background-color: #ebee4c;
     opacity: 0.8;
-    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-image: radial-gradient(#666668 0.5px, #e5e5f7 0.5px);
     background-size: 10px 10px;
 }
 
 header {
-    background-color: rgb(187, 187, 187);
-    border: #000000;
+    background-color: rgb(84, 114, 20); 
+    color: white;
+    text-align: center;
+    padding: 0.5%;
 }
 
-h1 {
-    text-align: center;
+header h1 {
     font-weight: bold;
     font-size: 40px;
+}
+
+header p {
+    font-size: 20px;
 }
 
 .content { 
