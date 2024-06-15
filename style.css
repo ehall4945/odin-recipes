@@ -1,8 +1,11 @@
 html {
-    background-color: #ebee4c;
+    background-color: #ced3cb;
     opacity: 0.8;
-    background-image: radial-gradient(#666668 0.5px, #e5e5f7 0.5px);
     background-size: 10px 10px;
+}
+
+hr {
+    color: black;
 }
 
 header {
@@ -10,6 +13,11 @@ header {
     color: white;
     text-align: center;
     padding: 0.5%;
+}
+
+.header-links {
+    display: flex;
+    flex-direction:row;
 }
 
 header h1 {
@@ -42,4 +50,11 @@ header p {
     font-size: 20px;
     font-weight: 800;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-links {
+    text-align: center;
+    display: block;
+    padding-bottom: 0.5%;
+    font-size: 20px;
 }
