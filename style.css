@@ -42,7 +42,7 @@ header p {
     margin: auto;
     border: 1px dotted black;
     background-color: rgb(219, 219, 219);
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .recipe-box {
@@ -50,7 +50,7 @@ header p {
     margin: 25px;
     border: 1px dotted black;
     background-color: rgb(219, 219, 219);
-    font-size: 16px;
+    font-size: 18px;
     width: 800px;
     height: auto;
     text-align: center;
@@ -73,6 +73,7 @@ header p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
 .recipe-description {
     background-color: rgb(186, 187, 186);
     padding: 15px;
@@ -91,9 +92,9 @@ header p {
     text-align: center;
     width: 900px;
     border: 1px dotted black;
+    font-size: 18px;
 }
 
-.ingredients ul {
-    font-size: 18px;
+.ingredients li {
     text-align: left;
 }
