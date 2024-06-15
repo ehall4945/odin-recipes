@@ -13,11 +13,14 @@ header {
     color: white;
     text-align: center;
     padding: 0.5%;
+    border: 1px solid black;
 }
 
 .header-links {
-    display: flex;
-    flex-direction:row;
+    text-align: center;
+    display: block;
+    padding-bottom: 0.5%;
+    font-size: 20px;
 }
 
 header h1 {
@@ -35,8 +38,11 @@ header p {
 } 
 
 .box { 
-    padding: 50px; 
+    padding: 15px;
     margin: auto;
+    border: 1px dotted black;
+    background-color: rgb(219, 219, 219);
+    font-size: 16px;
 }
 
 .box img {
@@ -52,9 +58,26 @@ header p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.header-links {
+.recipe-description {
+    background-color: rgb(186, 187, 186);
+    padding: 15px;
+    margin: auto;
     text-align: center;
-    display: block;
-    padding-bottom: 0.5%;
-    font-size: 20px;
+    width: 900px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.ingredients {
+    background-color: rgb(219, 219, 219);
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    width: 900px;
+    border: 1px dotted black;
+}
+
+.ingredients ul {
+    font-size: 18px;
+    text-align: left;
 }
