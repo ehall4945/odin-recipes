@@ -50,7 +50,8 @@ header p {
     height: 300px;
 }
 
-.box p {
+.box p,
+.box h2 {
     display: block;
     text-align: center;
     font-size: 20px;
@@ -72,6 +73,7 @@ header p {
     background-color: rgb(219, 219, 219);
     padding: 15px;
     margin: auto;
+    margin-bottom: 20px;
     text-align: center;
     width: 900px;
     border: 1px dotted black;
